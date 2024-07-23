@@ -6,10 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -20,36 +16,72 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+<h2>Configuration Steps</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+<h3>Step 1: Open osTicket and Log In
 
-<h2>Installation Steps</h2>
+- Log in to osTicket using the credentials you made during the installation tutorial </h3>
+<img src="https://i.imgur.com/tdBb49N.png" alt="osTicket logo"/>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h3>Step 2: Configure Roles
+Admin Panel -> Agents -> Roles
+Supreme Admin
+<img src="https://i.imgur.com/uDoxWzK.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/aEyZBVj.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/mi4QzRZ.png" alt="osTicket logo"/>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h3>Step 3: Configure Departments 
+Admin Panel -> Agents -> Departments
+System Administrators
+<img src="https://i.imgur.com/sLjFANH.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/c3dvIsb.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/wOQI2re.png" alt="osTicket logo"/>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h3>Step 4: Configure Teams
+Admin Panel -> Agents -> Teams
+Level I Support
+Level II Support
+<img src="https://i.imgur.com/zZb1vNG.png" alt="osTicket logo"/>
+
+<h3>Step 5: Allow anyone to create tickets
+Admin Panel -> Settings -> User Settings
+Registration Required: Require registration and login to create tickets 
+<img src="https://i.imgur.com/1jKqvTh.png" alt="osTicket logo"/>
+
+<h3>Step 6: Configure Agents (workers)
+Admin Panel -> Agents -> Add New
+Jane
+John
+<img src="https://i.imgur.com/wZenxLL.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/y4xD28i.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/nyMzKSd.png" alt="osTicket logo"/>
+
+<h3>Step 7: Configure Users (customers)
+Agent Panel -> Users -> Add New
+Karen
+Ken
+<img src="https://i.imgur.com/dvndr5k.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/wCU0VLu.png" alt="osTicket logo"/>
+
+<h3>Step 8: Configure SLA
+Admin Panel -> Manage -> SLA
+Sev-A (1 hour, 24/7)
+Sev-B (4 hours, 24/7)
+Sev-C (8 hours, business hours)
+<img src="https://i.imgur.com/8cx9tED.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/qZrCwgV.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/JEzGIfH.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/L9tPjtg.png" alt="osTicket logo"/>
+
+<h3>Step 9: Configure Help Topics
+Admin Panel -> Manage -> Help Topics
+Business Critical Outage
+Personal Computer Issues
+Equipment Request
+Password Reset
+<img src="https://i.imgur.com/3gxYZzd.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/zTWTdp0.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/p1mcgxx.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/7SEqCGP.png" alt="osTicket logo"/>
+
+
